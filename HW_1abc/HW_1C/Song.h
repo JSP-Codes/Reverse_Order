@@ -1,3 +1,5 @@
+#ifndef SONG_H
+#define SONG_H
 #include <iostream>
 #include <string>
 
@@ -19,3 +21,4 @@ class Song {
     string title;
     string artist;
 };
+#endif

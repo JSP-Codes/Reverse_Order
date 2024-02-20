@@ -13,8 +13,7 @@ Song::Song (string title, string artist) {
         this->title = title;
         this->artist = artist;
     }
-Song::~Song() {
-    }
+Song::~Song() {}
 string Song::getTitle() const {
         return title;
     }
